@@ -18,7 +18,6 @@ lab=LabelEncoder()
 X[:,2]=lab.fit_transform(X[:,2]) 
 y=lab.fit_transform(y)
 
-
 from sklearn.preprocessing import MinMaxScaler
 minmax=MinMaxScaler()
 X_min_max=minmax.fit_transform(X)
