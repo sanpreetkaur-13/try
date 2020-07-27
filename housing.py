@@ -15,4 +15,5 @@ y=dataset.iloc[:,8]
 plt.scatter(X['housing_median_age'],y)
 plt.show()
 
+
 pd.plotting.scatter_matrix(dataset)
